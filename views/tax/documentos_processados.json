@@ -1,0 +1,50 @@
+{
+    "592": {
+        "data_processamento": "29\/04\/2025 09:41",
+        "dia_processado": "29\/04\/2025",
+        "id": 592,
+        "codigo": "AVULSO",
+        "nome": "THIAGO VIEIRA DINIZ LEAL",
+        "cpf": "221.438.918-06",
+        "valor": "150.00",
+        "valor_formatado": "R$ 150,00",
+        "data_pagamento": "16\/04\/2025",
+        "data_ocorrencia": "16\/04\/2025",
+        "data_credito": "22\/04\/2025",
+        "usuario": "AULAIR CESAR SANTANA",
+        "funcionario": "Sistema Automático",
+        "ja_processado": false
+    },
+    "83": {
+        "data_processamento": "29\/04\/2025 09:41",
+        "dia_processado": "29\/04\/2025",
+        "id": 83,
+        "codigo": "AVULSO",
+        "nome": "MAURICIO CARLOS PINNA",
+        "cpf": "037.247.258-33",
+        "valor": "300.00",
+        "valor_formatado": "R$ 300,00",
+        "data_pagamento": "16\/04\/2025",
+        "data_ocorrencia": "16\/04\/2025",
+        "data_credito": "22\/04\/2025",
+        "usuario": "AULAIR CESAR SANTANA",
+        "funcionario": "Sistema Automático",
+        "ja_processado": false
+    },
+    "84": {
+        "data_processamento": "29\/04\/2025 09:41",
+        "dia_processado": "29\/04\/2025",
+        "id": 84,
+        "codigo": "AVULSO",
+        "nome": "EVA ARCARI PINNA",
+        "cpf": "156.937.188-16",
+        "valor": "500.00",
+        "valor_formatado": "R$ 500,00",
+        "data_pagamento": "16\/04\/2025",
+        "data_ocorrencia": "16\/04\/2025",
+        "data_credito": "22\/04\/2025",
+        "usuario": "AULAIR CESAR SANTANA",
+        "funcionario": "Sistema Automático",
+        "ja_processado": false
+    }
+}

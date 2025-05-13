@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ext="http://caixa.gov.br/sibar/manutencao_cobranca_bancaria/boleto/externo" xmlns:sib="http://caixa.gov.br/sibar">
+  <soapenv:Body>
+    <ext:SERVICO_ENTRADA>
+      <sib:HEADER>
+        <VERSAO>3.2</VERSAO>
+        <AUTENTICACAO>aoVt2PeuaNy6C66sgaa8In2Mwx7iSocAlwXDpCnO7j0=</AUTENTICACAO>
+        <USUARIO_SERVICO>SGCBS02P</USUARIO_SERVICO>
+        <OPERACAO>INCLUI_BOLETO</OPERACAO>
+        <SISTEMA_ORIGEM>SIGCB</SISTEMA_ORIGEM>
+        <UNIDADE></UNIDADE>
+        <DATA_HORA>20250429145924</DATA_HORA>
+      </sib:HEADER>
+      <DADOS>
+        <INCLUI_BOLETO>
+          <CODIGO_BENEFICIARIO>0720907</CODIGO_BENEFICIARIO>
+          <TITULO>
+            <NOSSO_NUMERO>14000000020250595</NOSSO_NUMERO>
+            <NUMERO_DOCUMENTO>595</NUMERO_DOCUMENTO>
+            <DATA_VENCIMENTO>2025-05-01</DATA_VENCIMENTO>
+            <VALOR>100.00</VALOR>
+            <TIPO_ESPECIE>99</TIPO_ESPECIE>
+            <FLAG_ACEITE>N</FLAG_ACEITE>
+            <DATA_EMISSAO>2025-04-29</DATA_EMISSAO>
+            <JUROS_MORA>
+              <TIPO>TAXA_MENSAL</TIPO>
+              <DATA>2025-05-02</DATA>
+              <PERCENTUAL>2.00</PERCENTUAL>
+            </JUROS_MORA>
+            <VALOR_ABATIMENTO>0</VALOR_ABATIMENTO>
+            <POS_VENCIMENTO>
+              <ACAO>DEVOLVER</ACAO>
+              <NUMERO_DIAS>5</NUMERO_DIAS>
+            </POS_VENCIMENTO>
+            <CODIGO_MOEDA>09</CODIGO_MOEDA>
+            <PAGADOR>
+              <CPF>34650825830</CPF>
+              <NOME>THIAGO CALIL ASSAD</NOME>
+              <ENDERECO>
+                <LOGRADOURO>AVENIDA JULIO BUONO, N 2525, 2 ANDAR</LOGRADOURO>
+                <BAIRRO>VILA GUSTAVO</BAIRRO>
+                <CIDADE>SAO PAULO</CIDADE>
+                <UF>SP</UF>
+                <CEP>02201001</CEP>
+              </ENDERECO>
+            </PAGADOR>
+            <MULTA>
+              <DATA>2025-05-02</DATA>
+              <PERCENTUAL>2.00</PERCENTUAL>
+            </MULTA>
+          </TITULO>
+        </INCLUI_BOLETO>
+      </DADOS>
+    </ext:SERVICO_ENTRADA>
+  </soapenv:Body>
+</soapenv:Envelope>

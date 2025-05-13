@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contabilidade Estrela - Newsletter</title>
+    <style>
+        /* Estilos gerais */
+        body {
+            font-family: 'Poppins', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+        }
+        
+        /* Container principal */
+        .container {
+            max-width: 650px;
+            margin: 0 auto;
+            background: #ffffff;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        /* Cabeçalho */
+        .header {
+            background-color: #0a4b78;
+            color: white;
+            padding: 25px;
+            text-align: center;
+        }
+        
+        .logo {
+            max-width: 220px;
+            margin: 0 auto;
+        }
+        
+        .header h1 {
+            margin: 15px 0 5px;
+            font-size: 28px;
+            font-weight: 600;
+        }
+        
+        .header p {
+            margin: 0;
+            font-size: 16px;
+            opacity: 0.9;
+        }
+        
+        /* Alerta tributário */
+        .tax-alert {
+            background-color: #ff7e00;
+            color: white;
+            padding: 15px;
+            text-align: center;
+            font-weight: 500;
+        }
+        
+        .tax-alert p {
+            margin: 0;
+            font-size: 16px;
+        }
+        
+        .tax-alert strong {
+            font-weight: 700;
+        }
+        
+        /* Conteúdo principal */
+        .content {
+            padding: 30px;
+        }
+        
+        .title {
+            font-size: 24px;
+            color: #0a4b78;
+            margin-bottom: 20px;
+            border-bottom: 2px solid #0a4b78;
+            padding-bottom: 10px;
+        }
+        
+        /* Call to action */
+        .cta-button {
+            display: inline-block;
+            background-color: #0a4b78;
+            color: white !important;
+            text-decoration: none;
+            padding: 12px 25px;
+            border-radius: 5px;
+            margin: 20px 0;
+            font-weight: 600;
+            text-align: center;
+        }
+        
+        .cta-button:hover {
+            background-color: #083a5e;
+        }
+        
+        /* Informações destacadas */
+        .info-box {
+            background-color: #f8f9fa;
+            border-left: 4px solid #0a4b78;
+            padding: 15px;
+            margin: 20px 0;
+        }
+        
+        .info-box h3 {
+            margin-top: 0;
+            color: #0a4b78;
+        }
+        
+        /* Timeline de prazos */
+        .timeline {
+            margin: 30px 0;
+        }
+        
+        .timeline-item {
+            position: relative;
+            padding-left: 30px;
+            margin-bottom: 20px;
+        }
+        
+        .timeline-item:before {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 5px;
+            width: 15px;
+            height: 15px;
+            border-radius: 50%;
+            background: #0a4b78;
+        }
+        
+        .timeline-item:after {
+            content: "";
+            position: absolute;
+            left: 7px;
+            top: 20px;
+            height: calc(100% + 5px);
+            width: 1px;
+            background: #dee2e6;
+        }
+        
+        .timeline-item:last-child:after {
+            display: none;
+        }
+        
+        .timeline-date {
+            font-weight: 700;
+            color: #0a4b78;
+        }
+        
+        /* Notícias e artigos */
+        .article {
+            border: 1px solid #dee2e6;
+            border-radius: 5px;
+            overflow: hidden;
+            margin-bottom: 20px;
+        }
+        
+        .article-header {
+            background-color: #0a4b78;
+            color: white;
+            padding: 10px 15px;
+        }
+        
+        .article-header h3 {
+            margin: 0;
+            font-size: 18px;
+        }
+        
+        .article-content {
+            padding: 15px;
+        }
+        
+        .article-link {
+            color: #0a4b78;
+            font-weight: 600;
+            text-decoration: none;
+        }
+        
+        /* Rodapé */
+        .footer {
+            background-color: #212529;
+            color: #f8f9fa;
+            padding: 30px;
+            text-align: center;
+        }
+        
+        .social-icons {
+            margin: 20px 0;
+        }
+        
+        .social-icons a {
+            display: inline-block;
+            margin: 0 10px;
+            color: white;
+        }
+        
+        .social-icon {
+            width: 32px;
+            height: 32px;
+        }
+        
+        .footer-links {
+            margin: 15px 0;
+        }
+        
+        .footer-links a {
+            color: #9ca3af;
+            text-decoration: none;
+            margin: 0 10px;
+            font-size: 14px;
+        }
+        
+        .footer-info {
+            font-size: 13px;
+            color: #9ca3af;
+            margin-bottom: 5px;
+        }
+        
+        .unsubscribe {
+            font-size: 12px;
+            color: #6c757d;
+            margin-top: 15px;
+        }
+        
+        .unsubscribe a {
+            color: #6c757d;
+            text-decoration: underline;
+        }
+        
+        /* Responsividade */
+        @media screen and (max-width: 600px) {
+            .container {
+                width: 100%;
+            }
+            
+            .header {
+                padding: 20px;
+            }
+            
+            .content {
+                padding: 20px;
+            }
+            
+            .footer {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Cabeçalho -->
+        <div class="header">
+            <img src="https://via.placeholder.com/220x80" alt="Contabilidade Estrela" class="logo">
+            <h1>Contabilidade Estrela</h1>
+            <p>Transparência e Excelência em Serviços Contábeis</p>
+        </div>
+        
+        <!-- Alerta tributário IR -->
+        <div class="tax-alert">
+            <p><strong>ATENÇÃO:</strong> Imposto de Renda 2025 - O prazo termina em 31 de maio! Entre em contato conosco para garantir sua declaração sem complicações.</p>
+        </div>
+        
+        <!-- Conteúdo principal -->
+        <div class="content">
+            <h2 class="title">Último Prazo para Declaração do Imposto de Renda 2025!</h2>
+            
+            <p>Prezado(a) Cliente,</p>
+            
+            <p>Esperamos que esta mensagem o encontre bem. Gostaríamos de lembrá-lo sobre o prazo final para a entrega da declaração do Imposto de Renda 2025, que se encerra em <strong>31 de maio</strong>.</p>
+            
+            <div class="info-box">
+                <h3>Informações Importantes:</h3>
+                <ul>
+                    <li>A entrega deve ser feita até 31 de maio de 2025, sem possibilidade de prorrogação</li>
+                    <li>Quem atrasar está sujeito à multa mínima de R$ 165,74, podendo chegar a 20% do imposto devido</li>
+                    <li>É necessário declarar mesmo quem teve rendimentos isentos acima de R$ 200 mil em 2024</li>
+                </ul>
+            </div>
+            
+            <p>A Contabilidade Estrela está preparada para ajudá-lo a cumprir esta obrigação fiscal com tranquilidade e segurança. Nossa equipe especializada pode auxiliar em todo o processo, desde a organização dos documentos até a transmissão final da declaração.</p>
+            
+            <div style="text-align: center;">
+                <a href="https://contabilidadeestrela.com.br/agendamento" class="cta-button">AGENDE SEU ATENDIMENTO AGORA</a>
+            </div>
+            
+            <h3 style="color: #0a4b78; margin-top: 30px;">Cronograma do IR 2025</h3>
+            
+            <div class="timeline">
+                <div class="timeline-item">
+                    <p class="timeline-date">01/03/2025</p>
+                    <p>Início do prazo para entrega da declaração</p>
+                </div>
+                
+                <div class="timeline-item">
+                    <p class="timeline-date">15/04/2025</p>
+                    <p>Data recomendada para iniciar o processo de declaração</p>
+                </div>
+                
+                <div class="timeline-item">
+                    <p class="timeline-date">15/05/2025</p>
+                    <p>Último dia para informar contas bancárias e investimentos no exterior</p>
+                </div>
+                
+                <div class="timeline-item">
+                    <p class="timeline-date">31/05/2025</p>
+                    <p>Prazo final para entrega da declaração</p>
+                </div>
+            </div>
+            
+            <h3 style="color: #0a4b78; margin-top: 30px;">Documentos Necessários</h3>
+            
+            <p>Para facilitar o processo, já separe os seguintes documentos:</p>
+            
+            <ul>
+                <li>Informes de rendimentos (salários, aposentadorias, pensões)</li>
+                <li>Informes de rendimentos financeiros (bancos, corretoras)</li>
+                <li>Comprovantes de gastos com saúde e educação</li>
+                <li>Documentos de bens e direitos (imóveis, veículos, investimentos)</li>
+                <li>Comprovantes de dívidas e ônus</li>
+                <li>Recibos de doações efetuadas</li>
+                <li>Declaração do ano anterior (para comparação)</li>
+            </ul>
+            
+            <div class="info-box" style="background-color: #e9f7fe; border-color: #0dcaf0;">
+                <h3 style="color: #0dcaf0;">Novidades para 2025:</h3>
+                <p>A Receita Federal anunciou mudanças importantes para a declaração deste ano, incluindo:</p>
+                <ul>
+                    <li>Novos limites de dedução para gastos com educação</li>
+                    <li>Declaração simplificada para MEI com faturamento até R$ 150 mil</li>
+                    <li>Obrigatoriedade de informar criptomoedas a partir de R$ 5.000</li>
+                </ul>
+            </div>
+            
+            <p style="margin-top: 30px;">Nossa equipe está à disposição para esclarecer qualquer dúvida e ajudá-lo a aproveitar todos os benefícios fiscais disponíveis, garantindo uma declaração segura e otimizada.</p>
+            
+            <div style="text-align: center; margin-top: 30px;">
+                <a href="tel:+551112345678" class="cta-button" style="background-color: #28a745;">FALE CONOSCO: (11) 1234-5678</a>
+            </div>
+        </div>
+        
+        <!-- Rodapé -->
+        <div class="footer">
+            <img src="https://via.placeholder.com/180x60/ffffff/0a4b78" alt="Contabilidade Estrela" style="margin-bottom: 15px;">
+            
+            <div class="social-icons">
+                <a href="https://facebook.com/contabilidadeestrela">
+                    <img src="https://via.placeholder.com/32/ffffff/0a4b78" alt="Facebook" class="social-icon">
+                </a>
+                <a href="https://instagram.com/contabilidadeestrela">
+                    <img src="https://via.placeholder.com/32/ffffff/0a4b78" alt="Instagram" class="social-icon">
+                </a>
+                <a href="https://linkedin.com/company/contabilidadeestrela">
+                    <img src="https://via.placeholder.com/32/ffffff/0a4b78" alt="LinkedIn" class="social-icon">
+                </a>
+                <a href="https://api.whatsapp.com/send?phone=551112345678">
+                    <img src="https://via.placeholder.com/32/ffffff/0a4b78" alt="WhatsApp" class="social-icon">
+                </a>
+            </div>
+            
+            <div class="footer-links">
+                <a href="https://contabilidadeestrela.com.br/servicos">Nossos Serviços</a>
+                <a href="https://contabilidadeestrela.com.br/sobre">Quem Somos</a>
+                <a href="https://contabilidadeestrela.com.br/contato">Contato</a>
+                <a href="https://contabilidadeestrela.com.br/blog">Blog</a>
+            </div>
+            
+            <p class="footer-info"><strong>Contabilidade Estrela</strong></p>
+            <p class="footer-info">Rua das Estrelas, 123 - Centro, São Paulo/SP - CEP 01234-567</p>
+            <p class="footer-info">Tel: (11) 1234-5678 | E-mail: contato@contabilidadeestrela.com.br</p>
+            
+            <p class="footer-info" style="margin-top: 15px;">© 2025 Contabilidade Estrela - Todos os direitos reservados.</p>
+            
+            <p class="unsubscribe">
+                Você recebeu este e-mail porque é cliente ou se cadastrou em nossa newsletter.
+                <br>
+                <a href="{{unsubscribe_link}}">Clique aqui para cancelar sua inscrição</a>
+            </p>
+        </div>
+    </div>
+</body>
+</html>

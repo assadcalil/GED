@@ -1,0 +1,146 @@
+{
+    "GCB_MZ_BEC2_RTC240_B6W4Y2_D250430_H024250_NT0538552862.ret": {
+        "processed_at": "2025-05-02 09:53:24",
+        "file_hash": "4e71b34765e0a8810b2f84032df279cb",
+        "status": "processed",
+        "user": "1: Sistema",
+        "total_registros": 6,
+        "total_valor": 1250
+    },
+    "4e71b34765e0a8810b2f84032df279cb": {
+        "processed_at": "2025-05-02 09:53:24",
+        "file_hash": "4e71b34765e0a8810b2f84032df279cb",
+        "status": "processed",
+        "user": "1: Sistema",
+        "total_registros": 6,
+        "total_valor": 1250
+    },
+    "GCB_MZ_BEC2_RTC240_B6W4Y2_D250417_H024258_NT0537732625.ret": {
+        "processed_at": "2025-05-02 09:57:50",
+        "file_hash": "eb71f422bdc4650ddd918a54846d2367",
+        "status": "processed",
+        "user": "1: Sistema",
+        "total_registros": 5,
+        "total_valor": 1100
+    },
+    "eb71f422bdc4650ddd918a54846d2367": {
+        "processed_at": "2025-05-02 09:57:50",
+        "file_hash": "eb71f422bdc4650ddd918a54846d2367",
+        "status": "processed",
+        "user": "1: Sistema",
+        "total_registros": 5,
+        "total_valor": 1100
+    },
+    "GCB_MZ_BEC2_RTC240_B6W4Y2_D250425_H022207_NT0538225944.ret": {
+        "processed_at": "2025-05-02 10:21:31",
+        "file_hash": "62c7799642186f4a45f9121ae8ab4adb",
+        "status": "processed",
+        "user": "1: Sistema",
+        "total_registros": 0,
+        "total_valor": 0
+    },
+    "62c7799642186f4a45f9121ae8ab4adb": {
+        "processed_at": "2025-05-02 10:21:31",
+        "file_hash": "62c7799642186f4a45f9121ae8ab4adb",
+        "status": "processed",
+        "user": "1: Sistema",
+        "total_registros": 0,
+        "total_valor": 0
+    },
+    "GCB_MZ_BEC2_RTC240_B6W4Y2_D250414_H025347_NT0537462947.ret": {
+        "processed_at": "2025-05-02 10:21:37",
+        "file_hash": "661e6e99100a0c5c3553ebde5bf12ecb",
+        "status": "processed",
+        "user": "1: Sistema",
+        "total_registros": 0,
+        "total_valor": 0
+    },
+    "661e6e99100a0c5c3553ebde5bf12ecb": {
+        "processed_at": "2025-05-02 10:21:37",
+        "file_hash": "661e6e99100a0c5c3553ebde5bf12ecb",
+        "status": "processed",
+        "user": "1: Sistema",
+        "total_registros": 0,
+        "total_valor": 0
+    },
+    "GCB_MZ_BEC2_RTC240_B6W4Y2_D250428_H022019_NT0538383422 (1).ret": {
+        "processed_at": "2025-05-02 10:21:41",
+        "file_hash": "515e9a997aff003ec7168d33028f9dcb",
+        "status": "processed",
+        "user": "1: Sistema",
+        "total_registros": 1,
+        "total_valor": 200
+    },
+    "515e9a997aff003ec7168d33028f9dcb": {
+        "processed_at": "2025-05-02 10:21:41",
+        "file_hash": "515e9a997aff003ec7168d33028f9dcb",
+        "status": "processed",
+        "user": "1: Sistema",
+        "total_registros": 1,
+        "total_valor": 200
+    },
+    "GCB_MZ_BEC2_RTC240_B6W4Y2_D250416_H022514_NT0537640265.ret": {
+        "processed_at": "2025-05-02 10:25:12",
+        "file_hash": "d11e8b87723e6e94b6ba6993ad2052e4",
+        "status": "processed",
+        "user": "1: Sistema",
+        "total_registros": 3,
+        "total_valor": 950
+    },
+    "d11e8b87723e6e94b6ba6993ad2052e4": {
+        "processed_at": "2025-05-02 10:25:12",
+        "file_hash": "d11e8b87723e6e94b6ba6993ad2052e4",
+        "status": "processed",
+        "user": "1: Sistema",
+        "total_registros": 3,
+        "total_valor": 950
+    },
+    "GCB_MZ_BEC2_RTC240_B6W4Y2_D250415_H022032_NT0537548450.ret": {
+        "processed_at": "2025-05-02 10:26:29",
+        "file_hash": "78167b363b7d170cd1dab381c64c3274",
+        "status": "processed",
+        "user": "1: Sistema",
+        "total_registros": 1,
+        "total_valor": 1200
+    },
+    "78167b363b7d170cd1dab381c64c3274": {
+        "processed_at": "2025-05-02 10:26:29",
+        "file_hash": "78167b363b7d170cd1dab381c64c3274",
+        "status": "processed",
+        "user": "1: Sistema",
+        "total_registros": 1,
+        "total_valor": 1200
+    },
+    "GCB_MZ_BEC2_RTC240_B6W4Y2_D250502_H024355_NT0538725391.ret": {
+        "processed_at": "2025-05-03 08:15:59",
+        "file_hash": "3e2f479fdb8ce75ecdc08db0ef553b02",
+        "status": "processed",
+        "user": "1: Sistema",
+        "total_registros": 4,
+        "total_valor": 650
+    },
+    "3e2f479fdb8ce75ecdc08db0ef553b02": {
+        "processed_at": "2025-05-03 08:15:59",
+        "file_hash": "3e2f479fdb8ce75ecdc08db0ef553b02",
+        "status": "processed",
+        "user": "1: Sistema",
+        "total_registros": 4,
+        "total_valor": 650
+    },
+    "GCB_MZ_BEC2_RTC240_B6W4Y2_D250506_H021059_NT0538966597 (1).ret": {
+        "processed_at": "2025-05-12 15:22:26",
+        "file_hash": "a0bf487090d3f47215966c5e7afa87e6",
+        "status": "processed",
+        "user": "1: Sistema",
+        "total_registros": 7,
+        "total_valor": 804.13
+    },
+    "a0bf487090d3f47215966c5e7afa87e6": {
+        "processed_at": "2025-05-12 15:22:26",
+        "file_hash": "a0bf487090d3f47215966c5e7afa87e6",
+        "status": "processed",
+        "user": "1: Sistema",
+        "total_registros": 7,
+        "total_valor": 804.13
+    }
+}
