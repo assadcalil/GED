@@ -1,0 +1,20 @@
+[2025-05-13 09:58:38] [192.168.10.11] [1] [info] Acesso automático: Login por cookie para usuário ID: 1
+[2025-05-13 10:21:45] [192.168.10.11] [1] [info] Acesso erro: Página não encontrada: /ged2.0/ | Contexto: {"ip":"192.168.10.11","user_agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/136.0.0.0 Safari\/537.36"}
+[2025-05-13 10:21:56] [192.168.10.11] [1] [info] Acesso erro: Página não encontrada: /ged2.0/index.php | Contexto: {"ip":"192.168.10.11","user_agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/136.0.0.0 Safari\/537.36"}
+[2025-05-13 10:23:29] [192.168.10.11] [1] [info] Acesso erro: Página não encontrada: /ged2.0/teste.php | Contexto: {"ip":"192.168.10.11","user_agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/136.0.0.0 Safari\/537.36"}
+[2025-05-13 10:23:33] [192.168.10.11] [1] [info] Acesso erro: Página não encontrada: /ged2.0/ | Contexto: {"ip":"192.168.10.11","user_agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/136.0.0.0 Safari\/537.36"}
+[2025-05-13 10:23:57] [192.168.10.11] [1] [info] Acesso erro: Página não encontrada: /ged2.0/index.php | Contexto: {"ip":"192.168.10.11","user_agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/136.0.0.0 Safari\/537.36"}
+[2025-05-13 10:24:38] [192.168.10.11] [1] [info] Acesso erro: Página não encontrada: /ged2.0/index.php | Contexto: {"ip":"192.168.10.11","user_agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/136.0.0.0 Safari\/537.36"}
+[2025-05-13 10:24:43] [192.168.10.11] [1] [info] Acesso erro: Página não encontrada: /ged2.0/index.php | Contexto: {"ip":"192.168.10.11","user_agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/136.0.0.0 Safari\/537.36"}
+[2025-05-13 10:24:44] [192.168.10.11] [1] [info] Acesso erro: Página não encontrada: /ged2.0/index.php | Contexto: {"ip":"192.168.10.11","user_agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/136.0.0.0 Safari\/537.36"}
+[2025-05-13 10:24:57] [192.168.10.11] [1] [info] Acesso erro: Página não encontrada: /ged2.0/index.php | Contexto: {"ip":"192.168.10.11","user_agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/136.0.0.0 Safari\/537.36"}
+[2025-05-13 10:24:59] [192.168.10.11] [1] [info] Acesso erro: Página não encontrada: /ged2.0/index.php | Contexto: {"ip":"192.168.10.11","user_agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/136.0.0.0 Safari\/537.36"}
+[2025-05-13 10:30:24] [192.168.10.11] [1] [info] Acesso erro: Página não encontrada: /GED2.0/check_user.php | Contexto: {"ip":"192.168.10.11","user_agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/136.0.0.0 Safari\/537.36"}
+[2025-05-13 10:50:30] [192.168.10.11] [1] [info] Acesso erro: Página não encontrada: /GED2.0/corrigor_caminhos.php | Contexto: {"ip":"192.168.10.11","user_agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/136.0.0.0 Safari\/537.36"}
+[2025-05-13 11:03:35] [192.168.10.11] [1] [info] Acesso erro: Página não encontrada: /GED2.0/corrigor_caminhos.php | Contexto: {"ip":"192.168.10.11","user_agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/136.0.0.0 Safari\/537.36"}
+[2025-05-13 13:50:13] [192.168.10.11] Logout para usuário ID: 1
+[2025-05-13 13:50:19] [192.168.10.11] Acesso bem-sucedido para usuário ID: 1
+[2025-05-13 13:50:19] [192.168.10.11] [1] [info] Acesso bem-sucedido: Login para administrador
+[2025-05-13 15:29:39] [192.168.10.11] Logout para usuário ID: 1
+[2025-05-13 15:29:43] [192.168.10.11] Acesso bem-sucedido para usuário ID: 1
+[2025-05-13 15:29:43] [192.168.10.11] [1] [info] Acesso bem-sucedido: Login para administrador

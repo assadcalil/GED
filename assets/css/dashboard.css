@@ -1,0 +1,529 @@
+/* 
+ * Sistema Contabilidade Estrela 2.0
+ * Estilo do Dashboard
+ */
+
+ :root {
+    --primary: #007bff;
+    --primary-dark: #0069d9;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --danger: #dc3545;
+    --warning: #ffc107;
+    --info: #17a2b8;
+    --light: #f8f9fa;
+    --dark: #343a40;
+    --sidebar-width: 260px;
+    --sidebar-collapsed-width: 70px;
+    --header-height: 70px;
+    --footer-height: 50px;
+    --transition-speed: 0.3s;
+}
+
+/* Reset e estilos gerais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f5f7fa;
+    color: #333;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Layout do Dashboard */
+.dashboard-container {
+    display: flex;
+    min-height: 100vh;
+    position: relative;
+}
+
+/* Menu Lateral */
+.sidebar {
+    width: var(--sidebar-width);
+    height: 100vh;
+    background-color: var(--dark);
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    transition: width var(--transition-speed) ease;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar::-webkit-scrollbar {
+    width: 5px;
+}
+
+.sidebar::-webkit-scrollbar-thumb {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+}
+
+.sidebar.collapsed {
+    width: var(--sidebar-collapsed-width);
+}
+
+.sidebar-header {
+    padding: 20px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.sidebar-logo {
+    display: flex;
+    align-items: center;
+}
+
+.sidebar-logo img {
+    height: 35px;
+    margin-right: 10px;
+}
+
+.sidebar-logo .logo-text {
+    font-size: 18px;
+    font-weight: 600;
+    white-space: nowrap;
+    opacity: 1;
+    transition: opacity var(--transition-speed);
+}
+
+.sidebar.collapsed .sidebar-logo .logo-text {
+    opacity: 0;
+    display: none;
+}
+
+.sidebar-toggle {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.sidebar-menu {
+    padding: 15px 0;
+    flex-grow: 1;
+}
+
+.menu-item {
+    position: relative;
+}
+
+.menu-item a {
+    display: flex;
+    align-items: center;
+    padding: 12px 20px;
+    color: rgba(255, 255, 255, 0.8);
+    transition: all var(--transition-speed);
+}
+
+.menu-item a:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+}
+
+.menu-item.active a {
+    background-color: var(--primary);
+    color: white;
+}
+
+.menu-item i {
+    font-size: 18px;
+    margin-right: 15px;
+    min-width: 20px;
+    text-align: center;
+}
+
+.menu-item .menu-text {
+    white-space: nowrap;
+    opacity: 1;
+    transition: opacity var(--transition-speed);
+}
+
+.sidebar.collapsed .menu-item .menu-text {
+    opacity: 0;
+    display: none;
+}
+
+.menu-arrow {
+    margin-left: auto;
+    transition: transform var(--transition-speed);
+}
+
+.menu-item.open .menu-arrow {
+    transform: rotate(90deg);
+}
+
+.submenu {
+    background-color: rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.3s ease-out;
+}
+
+.submenu.open {
+    max-height: 1000px;
+    transition: max-height 0.5s ease-in;
+}
+
+.submenu a {
+    padding-left: 55px;
+    font-size: 14px;
+}
+
+.sidebar-footer {
+    padding: 15px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    font-size: 12px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.sidebar.collapsed .sidebar-footer {
+    display: none;
+}
+
+/* Conteúdo Principal */
+.main-content {
+    flex: 1;
+    margin-left: var(--sidebar-width);
+    transition: margin-left var(--transition-speed) ease;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar.collapsed ~ .main-content {
+    margin-left: var(--sidebar-collapsed-width);
+}
+
+/* Cabeçalho do Dashboard */
+.dashboard-header {
+    height: var(--header-height);
+    background-color: white;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.menu-toggle {
+    display: none;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.brasilia-time {
+    font-size: 14px;
+    color: var(--secondary);
+}
+
+.brasilia-time i {
+    margin-right: 5px;
+    color: var(--primary);
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+}
+
+.notifications {
+    margin-right: 20px;
+    position: relative;
+}
+
+.notifications .btn {
+    background: none;
+    border: none;
+    font-size: 18px;
+    color: var(--secondary);
+    padding: 10px;
+}
+
+.notification-badge {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: var(--danger);
+    color: white;
+    font-size: 10px;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.user-profile .btn {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    background: none;
+    border: none;
+}
+
+.user-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 10px;
+}
+
+.user-avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.user-info {
+    text-align: left;
+}
+
+.user-name {
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--dark);
+    display: block;
+}
+
+.user-role {
+    font-size: 12px;
+    color: var(--secondary);
+    display: block;
+}
+
+/* Conteúdo do Dashboard */
+.dashboard-content {
+    flex: 1;
+    padding: 20px;
+    background-color: #f5f7fa;
+}
+
+.page-header {
+    margin-bottom: 20px;
+}
+
+.page-title {
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--dark);
+}
+
+.breadcrumb-item a {
+    color: var(--primary);
+}
+
+/* Cartões de Estatísticas */
+.stats-cards {
+    margin-bottom: 20px;
+}
+
+.stat-card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s;
+}
+
+.stat-card:hover {
+    transform: translateY(-5px);
+}
+
+.stat-card .card-body {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.stat-icon {
+    width: 60px;
+    height: 60px;
+    background-color: rgba(0, 123, 255, 0.1);
+    color: var(--primary);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    margin-right: 15px;
+}
+
+.stat-details {
+    flex: 1;
+}
+
+.stat-number {
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0;
+    color: var(--dark);
+}
+
+.stat-label {
+    font-size: 14px;
+    color: var(--secondary);
+}
+
+/* Cards e Tabelas */
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+    margin-bottom: 20px;
+}
+
+.card-header {
+    background-color: white;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    padding: 15px 20px;
+}
+
+.card-title {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--dark);
+}
+
+.table {
+    margin-bottom: 0;
+}
+
+.table th {
+    font-weight: 600;
+    color: var(--secondary);
+    background-color: rgba(0, 0, 0, 0.02);
+}
+
+.table td, .table th {
+    padding: 12px 20px;
+    vertical-align: middle;
+}
+
+/* Rodapé */
+.dashboard-footer {
+    height: var(--footer-height);
+    background-color: white;
+    border-top: 1px solid rgba(0, 0, 0, 0.05);
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.copyright {
+    font-size: 14px;
+    color: var(--secondary);
+}
+
+/* Responsividade */
+@media (max-width: 992px) {
+    .sidebar {
+        transform: translateX(-100%);
+        width: var(--sidebar-width);
+    }
+    
+    .sidebar.show {
+        transform: translateX(0);
+    }
+    
+    .main-content {
+        margin-left: 0;
+    }
+    
+    .menu-toggle {
+        display: block;
+    }
+    
+    .header-right {
+        margin-left: auto;
+    }
+    
+    .user-info {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .dashboard-content {
+        padding: 15px;
+    }
+    
+    .stat-card .card-body {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .stat-icon {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    
+    .brasilia-time {
+        display: none;
+    }
+}
+
+/* Animações e Transições */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.fade-in {
+    animation: fadeIn 0.3s ease forwards;
+}
+
+/* Temas de Cores para Diferentes Tipos de Usuários */
+/* Administrador */
+.theme-admin .stat-icon {
+    background-color: rgba(0, 123, 255, 0.1);
+    color: var(--primary);
+}
+
+/* Editor */
+.theme-editor .stat-icon {
+    background-color: rgba(40, 167, 69, 0.1);
+    color: var(--success);
+}
+
+/* Imposto de Renda */
+.theme-tax .stat-icon {
+    background-color: rgba(255, 193, 7, 0.1);
+    color: var(--warning);
+}
+
+/* Financeiro */
+.theme-financial .stat-icon {
+    background-color: rgba(23, 162, 184, 0.1);
+    color: var(--info);
+}
+
+/* Cliente */
+.theme-client .stat-icon {
+    background-color: rgba(108, 117, 125, 0.1);
+    color: var(--secondary);
+}

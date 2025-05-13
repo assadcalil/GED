@@ -1,0 +1,295 @@
+/**
+ * Sistema Contabilidade Estrela 2.0
+ * Estilos para template de email
+ * 
+ * Estes estilos são específicos para o template de email.
+ * Muitos clientes de email têm suporte limitado a CSS, então
+ * usamos estilos inline e propriedades básicas de CSS.
+ */
+
+/* Estilos gerais */
+body {
+    font-family: 'Poppins', Arial, sans-serif;
+    line-height: 1.6;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* Container principal */
+.container {
+    max-width: 650px;
+    margin: 0 auto;
+    background: #ffffff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Cabeçalho */
+.header {
+    background-color: #0a4b78;
+    color: #ffffff;
+    padding: 25px;
+    text-align: center;
+}
+
+.header h1 {
+    margin: 15px 0 5px;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.header p {
+    margin: 0;
+    font-size: 16px;
+    opacity: 0.9;
+}
+
+.logo {
+    max-width: 220px;
+    margin: 0 auto;
+    display: block;
+}
+
+/* Alerta tributário */
+.tax-alert {
+    background-color: #ff7e00;
+    color: #ffffff;
+    padding: 15px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.tax-alert p {
+    margin: 0;
+    font-size: 16px;
+}
+
+.tax-alert strong {
+    font-weight: 700;
+}
+
+/* Conteúdo principal */
+.content {
+    padding: 30px;
+}
+
+.title {
+    font-size: 24px;
+    color: #0a4b78;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #0a4b78;
+    padding-bottom: 10px;
+}
+
+p {
+    margin: 0 0 16px;
+}
+
+/* Call to action */
+.cta-button {
+    display: inline-block;
+    background-color: #0a4b78;
+    color: #ffffff !important;
+    text-decoration: none;
+    padding: 12px 25px;
+    border-radius: 5px;
+    margin: 20px 0;
+    font-weight: 600;
+    text-align: center;
+}
+
+.cta-button:hover {
+    background-color: #083a5e;
+}
+
+/* Informações destacadas */
+.info-box {
+    background-color: #f8f9fa;
+    border-left: 4px solid #0a4b78;
+    padding: 15px;
+    margin: 20px 0;
+}
+
+.info-box h3 {
+    margin-top: 0;
+    color: #0a4b78;
+}
+
+/* Timeline de prazos */
+.timeline {
+    margin: 30px 0;
+}
+
+.timeline-item {
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 20px;
+}
+
+.timeline-item:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 5px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #0a4b78;
+}
+
+.timeline-date {
+    font-weight: 700;
+    color: #0a4b78;
+}
+
+/* Notícias e artigos */
+.article {
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.article-header {
+    background-color: #0a4b78;
+    color: #ffffff;
+    padding: 10px 15px;
+}
+
+.article-header h3 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.article-content {
+    padding: 15px;
+}
+
+.article-link {
+    color: #0a4b78;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+/* Rodapé */
+.footer {
+    background-color: #212529;
+    color: #f8f9fa;
+    padding: 30px;
+    text-align: center;
+}
+
+.social-icons {
+    margin: 20px 0;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin: 0 10px;
+    color: #ffffff;
+}
+
+.social-icon {
+    width: 32px;
+    height: 32px;
+}
+
+.footer-links {
+    margin: 15px 0;
+}
+
+.footer-links a {
+    color: #9ca3af;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 14px;
+}
+
+.footer-info {
+    font-size: 13px;
+    color: #9ca3af;
+    margin-bottom: 5px;
+}
+
+.unsubscribe {
+    font-size: 12px;
+    color: #6c757d;
+    margin-top: 15px;
+}
+
+.unsubscribe a {
+    color: #6c757d;
+    text-decoration: underline;
+}
+
+/* Elementos de lista */
+ul, ol {
+    margin: 0 0 20px;
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+/* Elementos de texto */
+h1, h2, h3, h4, h5, h6 {
+    color: #0a4b78;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    line-height: 1.4;
+}
+
+h2 {
+    font-size: 24px;
+    border-bottom: 1px solid #eaeaea;
+    padding-bottom: 10px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+strong, b {
+    font-weight: 600;
+}
+
+/* Links */
+a {
+    color: #0a4b78;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #083a5e;
+}
+
+/* Imagens */
+img {
+    max-width: 100%;
+    height: auto;
+    border: 0;
+    display: block;
+}
+
+/* Tabelas para email */
+table.email-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table.email-table th,
+table.email-table td {
+    border: 1px solid #dee2e6;
+    padding: 8px 12px;
+    text-align: left;
+}
+
+table.email-table th {
+    background-color: #f8f9fa;
+    font-weight: 600;
+}

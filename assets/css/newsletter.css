@@ -1,0 +1,264 @@
+/**
+ * Sistema Contabilidade Estrela 2.0
+ * Estilos para o sistema de newsletter
+ */
+
+/* Estilos de cartões de newsletter */
+.card-newsletter {
+    transition: transform 0.2s, box-shadow 0.2s;
+    margin-bottom: 20px;
+    border: 1px solid #e9ecef;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.card-newsletter:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+.newsletter-title {
+    font-weight: 600;
+    font-size: 18px;
+    color: #0a4b78;
+    margin-bottom: 5px;
+}
+
+.newsletter-subject {
+    color: #495057;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.newsletter-date {
+    font-size: 12px;
+    color: #6c757d;
+}
+
+/* Estatísticas de newsletter */
+.newsletter-stats {
+    margin-top: 15px;
+    padding-top: 15px;
+    border-top: 1px solid #e9ecef;
+}
+
+.stat-item {
+    text-align: center;
+}
+
+.stat-value {
+    font-weight: 600;
+    font-size: 24px;
+    color: #0a4b78;
+}
+
+.stat-label {
+    font-size: 12px;
+    color: #6c757d;
+    text-transform: uppercase;
+}
+
+/* Badges de status */
+.status-badge {
+    padding: 6px 12px;
+    border-radius: 50px;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.status-draft {
+    background-color: #e9ecef;
+    color: #495057;
+}
+
+.status-sent {
+    background-color: #d1e7dd;
+    color: #0f5132;
+}
+
+.status-active {
+    background-color: #d1e7dd;
+    color: #0f5132;
+}
+
+.status-unsubscribed {
+    background-color: #f8d7da;
+    color: #842029;
+}
+
+/* Botões de ação */
+.btn-send-newsletter {
+    background-color: #0a4b78;
+    border-color: #0a4b78;
+}
+
+.btn-send-newsletter:hover {
+    background-color: #083a5e;
+    border-color: #083a5e;
+}
+
+/* Alerta de IR */
+.tax-alert {
+    background-color: #ff7e00;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.tax-alert i {
+    margin-right: 10px;
+}
+
+/* Previsualização de email */
+.email-preview-frame {
+    width: 100%;
+    height: 500px;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+}
+
+/* Templates de newsletter */
+.template-button {
+    border: 2px solid #dee2e6;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.template-button:hover {
+    border-color: #0a4b78;
+    transform: translateY(-3px);
+}
+
+.template-button.active {
+    border-color: #0a4b78;
+    background-color: rgba(10, 75, 120, 0.1);
+}
+
+.template-thumbnail {
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+
+.template-title {
+    font-weight: 600;
+    font-size: 14px;
+    text-align: center;
+}
+
+/* Informações da newsletter */
+.newsletter-info {
+    margin-bottom: 1.5rem;
+}
+
+.newsletter-info-item {
+    margin-bottom: 0.5rem;
+}
+
+.newsletter-info-label {
+    font-weight: 600;
+    color: #0a4b78;
+    width: 150px;
+    display: inline-block;
+}
+
+/* Cartões de estatísticas */
+.stat-card {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    margin-bottom: 15px;
+}
+
+/* Seção de importação */
+.import-section {
+    background-color: #f8f9fa;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.import-icon {
+    font-size: 24px;
+    color: #0a4b78;
+    margin-right: 10px;
+}
+
+/* Estilos para área de busca */
+.search-box {
+    position: relative;
+}
+
+.search-icon {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    color: #6c757d;
+}
+
+.search-input {
+    padding-left: 30px;
+}
+
+/* Tabelas e DataTables */
+.table-responsive {
+    overflow-x: auto;
+}
+
+.table th, .table td {
+    vertical-align: middle;
+}
+
+.actions-column {
+    width: 120px;
+}
+
+.table-hover tbody tr:hover {
+    background-color: rgba(10, 75, 120, 0.05);
+}
+
+/* Summernote editor customização */
+.note-editing-area {
+    min-height: 300px;
+}
+
+.note-editor .note-toolbar {
+    background-color: #f8f9fa;
+}
+
+/* Modais */
+.modal-content.bg-opacity-95 {
+    background-color: rgba(255, 255, 255, 0.95) !important;
+}
+
+.modal-backdrop.show {
+    opacity: 0.6;
+}
+
+/* Responsividade */
+@media (max-width: 767.98px) {
+    .newsletter-info-label {
+        width: 100%;
+        display: block;
+        margin-bottom: 0.25rem;
+    }
+    
+    .actions-column {
+        width: auto;
+    }
+    
+    .email-preview-frame {
+        height: 400px;
+    }
+}
